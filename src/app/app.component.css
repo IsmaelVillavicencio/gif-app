@@ -1,0 +1,23 @@
+.container-fluid {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.extend {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+shared-sidebar {
+  height: 100%;
+  overflow-y: auto;
+}
+
+app-home-page {
+  height: 100%;
+  overflow-y: auto;
+  flex-grow: 1;
+}
